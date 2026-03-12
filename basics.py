@@ -80,6 +80,118 @@ print(type(age))
 
 
 ##ifelse
+# age=int(input("enter your age: "))
+
+# if age>=100:
+#     print(f"you are too old to suign up")
+# elif age>=18:
+#     print(f"you are now signe up")
+# elif age<0:
+#     print(f"you hevent been born yet")
+# else:
+#     print(f"you must be 18+ to sign up")    
+
+
+# response= input("would u like food?(Y/N): ")
+
+# if response=="Y":
+#     print(f"you have food!")
+# else:
+#     print(f"you have not food") 
+
+
+# weight=float(input("enter your weight: "))
+# unit = input("enter kilograms or pounds?(K or L):  ")
+
+# if unit=="K":
+#     weight=weight*2.205
+#     unit="Lbs"
+#     print(f"your weight is : {round(weight,2)} {unit}")
+# elif unit=="L":
+#     weight=weight/2.205
+#     unit="kgs"
+#     print(f"your weight is: {round(weight,1)} {unit}")
+# else:
+#     print(f"unit {unit} is not valid")
+
+
+##conditional statement
+# num=5
+# a=6
+# b=7
+
+# print(f"POSITIVE" if num>0 else "NEGATIVE")
+# result=True if a>b else False
+# print(result)
+
+
+##important
+
+# name=input("enter your name: ")
+# phonenum=input("enter your phone number: ")
+
+# len=len(name)
+# print(len)
+# res=name.find("o")
+# res=name.rfind("o")
+# name=name.upper()
+# x=phonenum.replace("-","")
+# print(x)
+
+
+
+# print(help(str))
+
+##EXERCISE
+
+# username=input("enter your username:")
+
+# if len(username)>12:
+#     print(f"your username cannot contain more than 12 chars")
+# elif not username.find(" ")==-1:
+#     print(f"username cannot cont contain  spaces")
+# elif not username.isalpha():
+#     print(f"username cannot contain numbers")
+# else:
+#     print(f"welcme {username}")
+
+
+##INDEXING
+
+# credit_number= "1234-5678-9012-3456"
+
+# print(credit_number[-1])
+# print(credit_number[0:6])
+# print(credit_number[::3])
+# x=credit_number[-4:]
+# print(f"your cresitcard no is: XXXX-XXXX-XXXX-{x}")
+
+
+#WHILE-LOOP
+
+# age=int(input("enter your age: "))
+
+# while age<0:
+#     print(f"age cannot be negative")
+#     age=int(input("enter your age: "))
+
+# print(f"your age is: {age}")    
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
 
 
 
