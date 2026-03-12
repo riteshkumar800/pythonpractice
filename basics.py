@@ -179,6 +179,146 @@ print(type(age))
 
 
 
+#######PYTHON COMPOUND IINTEREST CALCULATOR########
+
+# principal=0
+# time=0
+# rate=0
+
+# while True:
+#     principal=float(input("enter the principal amount: "))
+#     if principal<0:
+#         print(f"principal cant be negative")
+#         principal=float(input("enter the principal amount: "))
+#     else:
+#         break 
+
+# while True:
+#     time=float(input("enter the time amount: "))
+#     if time<0:
+#         print(f"time cant be negative")
+#         time=float(input("enter the time amount: "))
+#     else:
+#         break  
+
+# while True:
+#     rate=float(input("enter the rate amount: "))
+#     if rate<0:
+#         print(f"time cant be negative")
+#         rate=float(input("enter the rate amount: "))
+#     else:
+#         break    
+
+# total=principal*pow((1+rate/100),time)
+# print(f"Balance after {time} years: ${total:.2f}")
+
+##FOR LOOPS
+
+
+# for x in range(1,11):
+#     print(x)
+
+# for x in reversed(range(1,11)):
+#     print(x)  
+
+
+# for x in range(1,11,3):
+#     print(x)    
+
+# credit_card="1234-5678-9012-3456"
+
+# for x in credit_card:
+#     print(x) 
+
+# for x in range(1,21):
+#     if x==13:
+#         break #continue
+#     else:
+#         print(x)
+
+
+
+
+
+#######TIME COUUNTDOWN########
+
+# see Timecoundownprogram File
+
+
+###NESTED LOOP####
+
+
+# rows=int(input("enter then number of rows: "))
+# columns=int(input("enter the number of columns: "))
+# symbol=input("enter  symbol to use: ")
+
+
+# for x in range(rows):
+#     for y in range(columns):
+#         print(symbol,end ="")
+#     print()    
+
+
+
+##COLLECTION####
+
+# fruits=["a", "o","b", "c" ]
+# # print(fruits[4])
+# # print(fruits[::-1])
+
+# for fruit in fruits:
+#     print(fruit)
+
+# print("o" in fruits)    
+# fruits[0]="d"
+
+# print(fruits)
+# fruits.sort()
+# fruits.reverse()
+
+
+#####SHOPING CART PROGRAM#####
+#see the file
+
+
+
+### 2D ########
+# fruits =["apple", "orange", "banana"]
+# vegetables=["aloo","bhindi", "ghobhi"]
+# meats=["chicken","fish","turkey"]
+
+
+# groceries=[fruits,vegetables,meats]
+
+# print(groceries[2][2])
+
+
+
+##EXERCISE##
+
+# num_pad=((1,2,3),
+#          (4,5,6),
+#          ("*",0,"#"))
+# for row in num_pad:
+#     for num in row:
+#         print(num, end=" ")
+#     print()
+
+###python quiz game####
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             
 
