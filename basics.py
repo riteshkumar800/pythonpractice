@@ -305,6 +305,35 @@ print(type(age))
 #     print()
 
 ###python quiz game####
+#see the file
+
+###dictionary####
+
+# capitals={"USA": "Washingtin D.C",
+#           "INDIA": "New Delhi",
+#           "China": "Bejing",
+#           "Russia": "Moscow"
+        
+#           }
+
+# print(capitals.get("INDIA"))
+# print(capitals.get("Japan"))
+# capitals.update({"USA":"Detroit"})
+# keys=capitals.keys()
+# for key in keys:
+#     print(key)
+# values=capitals.values()
+# for value in values:
+#     print(value)
+
+# item=capitals.items()....
+
+
+##CONCESSION STAND PROGRAM####
+
+# see file
+
+
 
 
 
