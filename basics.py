@@ -359,6 +359,65 @@ print(type(age))
 #see file
 
 
+##FUNCTIONS##
+# def happy_birthday(name, age):
+#     print(f"Happy birtday to {name}!")
+#     print(f"you are {age} years old!")
+#     print(f"Happy birthday to you!")
+#     print()
+
+# happy_birthday("Bro", 20)    
+# happy_birthday("steve", 30)    
+# happy_birthday("ritesh", 22)    
+# happy_birthday("ravi", 20)    
+
+
+
+##RETURN##
+
+# def multiply(x,y):
+#     z=x*y
+#     return z
+
+# print(multiply(2,3))
+
+# def create_name(first,last):
+#     first=first.capitalize()
+#     last=last.capitalize()
+
+#     return first+" "+last
+
+# full_name = create_name("ritesh", "kumar")
+# print(full_name)
+
+##DEFAULT ARGUMENT##
+# import time
+
+# def count(end,start):
+#     for x in range(start,end):
+#         print(x)
+#         time.sleep(1)
+#     print("DONE!")
+
+
+# count(30,15)
+
+# def get_phone(country, area, first, last):
+#     return f"{country}-{area}-{first}-{last}"
+
+# phone_num=get_phone(country=1, first=456, area=123, last=7890)
+
+# print(phone_num)
+
+
+
+
+
+
+
+
+
+
 
 
 
