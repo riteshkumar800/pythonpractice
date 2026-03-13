@@ -409,6 +409,65 @@ print(type(age))
 
 # print(phone_num)
 
+##*args and **kwargs##
+
+# def add(*args):
+#     total=0
+#     for arg in args:
+#         total+=arg
+
+#     return total
+
+# print(add(1,2,3,4,5))    
+
+##MEMBERSHIP OPERATORS##
+
+# word="APPLE"
+
+# letter= input("Guess a letter in the secret word: ")
+
+# if letter not in word:
+#     print(f"{letter} was not found")
+# else:
+#     print(f"There is a {letter}")    
+
+
+
+
+# grades={"sandy": "A",
+#         "squidward": "B",
+#         "spongebob": "C",
+#         "patric": "D"
+# }
+
+# student=input("enter the nam eof the student: ")
+
+# if student not in grades:
+#     print(f"student is not available")
+# else:
+#     print(f"{student}'s grade is {grades[student]}")
+   
+
+
+# email="ritesh@gmail.com"
+
+
+# if "@" in email and "." in email:
+#     print("valid email")
+# else:
+#     print("Invalid email")    
+
+
+##LIST COMPREHENSION##
+# doubles=[x*2 for x in range(1,11)]
+
+# print(doubles)
+
+# numbers=[1, -2, 3, -4, 5, -6, 8,9]
+
+# positives_num=[num for num in numbers if num>=0 ]
+
+# print(positives_num)
 
 
 
