@@ -493,7 +493,23 @@ print(type(age))
         
 
 
-# print(day_of_week(1))        
+# print(day_of_week(1))  
+
+# def is_weekend(day):
+#     match day:
+#         case "saturday" | "sunday":
+#             return True
+#         case "monday"  | "Tuesday"  | "wednesday"  | "Thursday"  | "Friday":
+#             return False
+#         case _:
+#             return False
+
+# print(is_weekend("monday"))         
+
+
+
+
+       
 
 
 
