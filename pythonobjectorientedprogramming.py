@@ -43,44 +43,58 @@
 
 #############################################################################################################################
 
-class Animal:
-    def __init__(self,name):
-        self.name=name
-        self.isalive=True
+# class Animal:
+#     def __init__(self,name):
+#         self.name=name
+#         self.isalive=True
 
-    def eat(self):
-        print(f"{self.name} is eating")
+#     def eat(self):
+#         print(f"{self.name} is eating")
 
-    def sleep(self):
-        print(f"{self.name} is sleeping")
-
-
-class Dog(Animal):
-    def speak(self):
-        print("bhow!")
-
-class Cat(Animal):
-    def speak(self):
-        print("meow!")
-
-class Mouse(Animal):
-    def speak(self):
-        print("squeek!")
-
-dog = Dog("Scoopy")
-cat= Cat("Garfield")
-mouse=Mouse("mickey")
+#     def sleep(self):
+#         print(f"{self.name} is sleeping")
 
 
-print(mouse.name)
-print(mouse.isalive)
-mouse.eat()
-cat.sleep()
+# class Dog(Animal):
+#     def speak(self):
+#         print("bhow!")
 
-dog.speak()
+# class Cat(Animal):
+#     def speak(self):
+#         print("meow!")
+
+# class Mouse(Animal):
+#     def speak(self):
+#         print("squeek!")
+
+# dog = Dog("Scoopy")
+# cat= Cat("Garfield")
+# mouse=Mouse("mickey")
+
+
+# print(mouse.name)
+# print(mouse.isalive)
+# mouse.eat()
+# cat.sleep()
+
+# dog.speak()
 
 #############################################################################################################################
 #super()
+class Shape:
+    def __init__(self,color,is_filled):
+        self.color=color
+        self.is_filled=is_filled
+
+
+class Circle(Shape):
+    def __init__(self,color,is_filled,radius):
+        super().__init__(color,is_filled)
+        self.radius=radius
+        
+
+
+
 
 
 
