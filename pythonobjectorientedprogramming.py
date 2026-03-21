@@ -169,8 +169,84 @@
 #     print(f"{shape.area()}cm^2")
 
 #############################################################################################################################
+##STATIC METHOD
 
+# class Employee:
+
+#     def __init__(self,name,position):
+#         self.name=name
+#         self.position=position
+
+#     def get_info(self):
+#         return f"{self.name}={self.position}"
     
+#     @staticmethod
+#     def is_valid_position(position):
+#         valid_positions=["manager", "cashier", "cook","janitor"]
+
+#         return position in valid_positions
+    
+
+
+# employee1=Employee("ritesh","manager")
+# employee2=Employee("riteshaa","cook")
+# employee1=Employee("rit","cook")
+
+
+# print(Employee.is_valid_position("Rocket Scientist"))
+# print(employee1.get_info())
+
+#############################################################################################################################
+
+##CLASS METHOD
+
+# class Student:
+
+#     count=0
+#     total_gpa=0
+
+#     def __init__(self,name,gpa):
+#         self.name=name
+#         self.gpa=gpa
+
+#         Student.count+=1
+#         Student.total_gpa+=gpa
+
+#     #INSTANCE METHOD
+
+#     def get_info(self):
+#         return "{self.name} {self.gpa}"
+    
+
+#     @classmethod
+#     def get_count(cls):
+#         return cls.count
+    
+#     @classmethod
+#     def get_avg_gpa(cls):
+#         if cls.count==0:
+#             return 0
+
+#         else:
+#             return f"Average gpa: {cls.total_gpa/cls.count:.2f}" 
+        
+# student1=Student("spongebob",3.0)
+# student2=Student("patric",1.0)
+# student3=Student("sandy",5.0)
+
+# print(Student.get_count())
+# print(Student.get_avg_gpa())
+
+
+        
+
+
+        
+
+
+
+
+
 
 
 
