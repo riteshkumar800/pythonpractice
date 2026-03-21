@@ -1,16 +1,50 @@
-from car import Car
+# from car import Car
 
-car1=Car("Mustang",2024,"red",False)
-car2=Car("corvette",2025,"blue",True)
-car3=Car("Charger",2026,"yellow",True)
+# car1=Car("Mustang",2024,"red",False)
+# car2=Car("corvette",2025,"blue",True)
+# car3=Car("Charger",2026,"yellow",True)
 
-print(car3.model)
-print(car3.color)
-print(car3.year)
-print(car3.for_sale)
-print(car2.model)
+# print(car3.model)
+# print(car3.color)
+# print(car3.year)
+# print(car3.for_sale)
+# print(car2.model)
 
 
-car1.drive()
-car3.stop()
-car2.describe()
+# car1.drive()
+# car3.stop()
+# car2.describe()
+
+
+#############################################################################################################################
+
+#class variables
+
+# class Student:
+#     class_year=2024
+#     num_students=0
+
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.age=age
+
+#         Student.num_students+=1
+
+
+
+
+# student1=Student("ritesh", 22)
+# student1=Student("ravih", 22)
+# student1=Student("rihaan", 32)
+
+# print(f"my graduating class of {Student.class_year} has {Student.num_students}. students")
+
+# print(student1.name)
+
+#############################################################################################################################
+
+
+
+
+
+
