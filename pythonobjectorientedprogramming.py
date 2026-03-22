@@ -237,6 +237,80 @@
 # print(Student.get_count())
 # print(Student.get_avg_gpa())
 
+#############################################################################################################################
+##MAGIC METHODS
+
+# class Book:
+
+
+#     def __init__(self,title,author,num_pages):
+#         self.title=title
+#         self.author=author
+#         self.num_pages=num_pages
+
+    
+#     def __str__(self):
+#         return f"{self.title} by {self.author}"
+    
+
+#     def __eq__(self,other):
+#         return self.title==other.title and self.author==other.author
+    
+#     def __lt__(self,other):
+#         return self.num_pages<other.num_pages
+    
+
+#     def __lt__(self,other):
+#         return self.num_pages>other.num_pages
+    
+#     def __add__(self,other):
+#         return f"{self.num_pages + other.num_pages}"
+    
+#     def __getitem__(self,key):
+#         if key=='title':
+#             return self.title
+#         elif key=="author":
+#             return self.author
+#         elif key=="num_pages":
+#             return self.num_pages
+#         else:
+#             return f"key {key} was not found"
+
+
+
+
+# book1=Book("dfghj","qwerty",96)
+# book2=Book("mnbvc","poiuyt",77)
+# book3=Book("tyu","sdfg",89)
+# print(book1)
+# print(book1==book2)
+# print(book1>book2)
+# print(book1<book2)
+# print(book1+book2)
+# print(book1["author"])
+
+
+#############################################################################################################################
+##PROPERTY
+class Rectangle:
+    def __init__(self,width,height):
+        self._width=width
+        self._height=height
+
+
+rectangle=Rectangle(3,4)
+
+
+print(rectangle._width)
+
+
+
+
+
+
+
+
+
 
         
 
