@@ -292,16 +292,154 @@
 
 #############################################################################################################################
 ##PROPERTY
-class Rectangle:
-    def __init__(self,width,height):
-        self._width=width
-        self._height=height
+# class Rectangle:
+#     def __init__(self,width,height):
+#         self._width=width
+#         self._height=height
 
 
-rectangle=Rectangle(3,4)
+# rectangle=Rectangle(3,4)
 
 
-print(rectangle._width)
+# print(rectangle._width)
+# see scsrshot
+
+#############################################################################################################################
+##DECORATOR
+# # def add_sprinklers(func):
+# #     def wrapper():
+# #         print("*You added sprinklers!...*")
+# #         func()
+# #     return wrapper
+
+
+# # @add_sprinklers
+# # def get_icecream():
+# #     print("Here is your icecream!")
+
+# # get_icecream()
+
+# def add_sprinklers(func):
+#     def wrapper(*args,**kwargs):
+#         print("*You added sprinklers!...*")
+#         # func(*args,**kwargs)
+#         func()
+#     return wrapper
+
+
+# def add_fudge(func):
+#     def wrapper(*args,**kwargs):
+#         print("*you add fudge*")
+#         func()
+
+#     return wrapper
+
+
+
+# @add_sprinklers
+# @add_fudge
+# def get_icecream():
+#     print("Here is your icecream!")
+
+# get_icecream("chocolate")
+
+#############################################################################################################################
+##EXCEPTION-HANDLING
+
+
+
+# number=int(input("enter a number: "))
+# print(1/number)
+
+# try:
+#     number=int(input("enter a number: "))
+#     print(1/number)
+# except ValueError:
+#     print("enter numbers only")
+
+# except ZeroDivisionError:
+#     print("you cant divide by zero idiot! ")
+
+# except Exception:
+#     print("something went error! ")
+# finally:
+#     print("this is printed always")
+
+#############################################################################################################################
+##FILE DETECTION
+
+# import os
+
+
+# # file_path="test.txt"
+# # file_path="stuff/test.txt"
+# file_path="/Users/riteshkumar/Desktop"
+
+# if os.path.exists(file_path):
+#     print(f"the location '{file_path}' exists")
+
+#     if os.path.isfile(file_path):
+#         print("that is a file")
+
+#     elif os.path.isdir(file_path):
+#         print("that is a directory")
+# else:
+#     print("That location doesn't exists")
+
+#############################################################################################################################
+##WRITING FILES
+# txt_data = "I like Pizza"
+# file_path = "/Users/riteshkumar/Desktop/test.txt"
+
+# try:
+#     # with open(file_path, "w") as file:
+#     # with open(file_path, "x") as file:
+#     with open(file_path, "a") as file:
+#         file.write("\n" + txt_data)
+#         print(f"txt file '{file_path}' is created")
+
+# except FileNotFoundError:
+#     print("That path does not exist")
+
+# employees=["asdfg", "qwert","yuiop","vbnm"]
+# file_path="/Users/riteshkumar/Desktop/test1.txt"
+
+
+# try:
+#     with open(file_path,"w") as file:
+#         for employee in employees:
+#             file.write(employee + "\n")
+#             print(f"txt file '{file_path}' is created")
+
+# except FileNotFoundError:
+#     print("That path does not exist")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
