@@ -461,6 +461,57 @@
 #     print("that was not exists")
 
 
+#############################################################################################################################
+##READING FILES
+# import json
+# import csv
+
+# # file_path="/Users/riteshkumar/Desktop/test.txt"
+# # file_path="/Users/riteshkumar/Desktop/test2.json"
+# file_path="/Users/riteshkumar/Desktop/test3.csv"
+
+# try:
+#     with open(file_path,"r") as file:
+#         # content =file.read()
+#         # content =json.load(file)
+#         content =csv.reader(file)
+#         # print(content)
+#         # print(content["name"])
+#         for line in content:
+#             print(line)
+
+# except FileNotFoundError:
+#     print("That file was not found")
+
+# except PermissionError:
+#     print("you do not have permission to read that file")
+
+#############################################################################################################################
+##DATE TIME
+
+# import datetime
+# date=datetime.date(2025,12,5)
+# today=datetime.date.today()
+
+# time=datetime.time(12,30,0)
+# now= datetime.datetime.now()
+
+# now =now.strftime("%H:%M:%S %d-%m-%y")
+
+
+# print(date)
+# print(today)
+# print(now)
+
+##SEE FILE ALARM CLOCK
+
+
+
+
+
+
+
+
 
 
 
