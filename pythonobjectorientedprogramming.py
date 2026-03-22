@@ -505,6 +505,74 @@
 
 ##SEE FILE ALARM CLOCK
 
+#############################################################################################################################
+##THREADING
+
+# import threading
+# import time
+
+# def walk_dog(first,last):
+#     time.sleep(8)
+#     print(f"you finished out walking the {first} {last}")
+
+# def take_out_trash():
+#     time.sleep(2)
+#     print("you take out the trash")
+
+# def get_mail():
+#     time.sleep(4)
+#     print("you get the mail")
+
+# # walk_dog()
+# # take_out_trash()
+# # get_mail()
+
+# chore1=threading.Thread(target=walk_dog, args=("scooby","doo"))
+# chore1.start()
+
+# chore2=threading.Thread(target=take_out_trash)
+# chore2.start()
+
+# chore3=threading.Thread(target=get_mail)
+# chore3.start()
+
+#############################################################################################################################
+##API
+
+# import requests
+# import json
+
+
+# base_url="https://pokeapi.co/api/v2"
+
+# def get_pokemon_info(name):
+#     url=f"{base_url}/pokemon/{name}"
+#     response=requests.get(url)
+
+#     if response.status_code==200:
+#         pokemon_data=response.json()
+#         return pokemon_data
+#     else:
+#         print(f"failed to retrieve the data {response.status_code}")
+
+
+# pokemon_name="pikachu"
+# pokemon_info=get_pokemon_info(pokemon_name)
+
+# if pokemon_info:
+#     print(f"Name: {pokemon_info["name"]}")
+#     print(f"weight: {pokemon_info["weight"]}")
+#     print(f"height: {pokemon_info["height"]}")
+
+
+
+
+
+
+
+
+
+
 
 
 
