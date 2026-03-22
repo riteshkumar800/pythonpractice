@@ -414,6 +414,57 @@
 # except FileNotFoundError:
 #     print("That path does not exist")
 
+##JSON
+
+# import json
+
+# employee={
+#     "name":"Spsdfgh",
+#     "age":"30",
+#     "job":"cook"
+
+# }
+
+
+# file_path= "/Users/riteshkumar/Desktop/test2.json"
+
+# try:
+#     with open(file_path, "w") as file:
+#         # json.dump(employee,file)
+#         json.dump(employee,file,indent=4)
+#         print(f"json file '{file_path}' was created")
+
+# except FileNotFoundError:
+#     print("that was not exists")
+
+##CSV
+# import csv
+# employees=[["Name", "Age", "Job"],
+#            ["ertyu",30,"rtyui"],
+#            ["qwer",34,"nm,"],
+#            ["vbnm,",45,"bnm,"]
+
+
+#            ]
+
+# file_path= "/Users/riteshkumar/Desktop/test3.csv"
+
+# try:
+#     with open(file_path,"w") as file:
+#         writer=csv.writer(file)
+#         for row in employees:
+#             writer.writerow(row)
+
+#         print(f"csv file '{file_path}' was created")
+
+# except FileNotFoundError:
+#     print("that was not exists")
+
+
+
+
+
+
 
 
 
