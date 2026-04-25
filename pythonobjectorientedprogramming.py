@@ -566,25 +566,25 @@
 
 #############################################################################################################################
 ##PYQt5
-import sys
-from PyQt5.QtWidgets import QApplication, QMainWindow
+# import sys
+# from PyQt5.QtWidgets import QApplication, QMainWindow
 
-class MainWindow(QMainWindow):
-    def __init__(self):
-        super().__init__()
-        self.setWindowTitle("My App")
-        self.setGeometry(0, 0, 600, 400)
-        self.setWindowTitle("My cool first GUI")
+# class MainWindow(QMainWindow):
+#     def __init__(self):
+#         super().__init__()
+#         self.setWindowTitle("My App")
+#         self.setGeometry(0, 0, 600, 400)
+#         self.setWindowTitle("My cool first GUI")
 
-def main():
-    app = QApplication(sys.argv)
-    window = MainWindow()
-    window.show()
-    sys.exit(app.exec_())   
+# def main():
+#     app = QApplication(sys.argv)
+#     window = MainWindow()
+#     window.show()
+#     sys.exit(app.exec_())   
 
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
 
 
 # ##see more in scrshot notes
